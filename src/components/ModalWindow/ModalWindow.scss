@@ -1,0 +1,24 @@
+.modal {
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+  gap: 10px;
+    padding: 20px;
+    width:350px;
+    height: 200px;
+    text-align: center;
+  }
+&__text Input {
+  min-width: 250px;
+}
+  &__icon {
+
+  }
+  &__actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+}
